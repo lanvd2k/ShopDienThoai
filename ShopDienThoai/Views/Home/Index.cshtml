@@ -1,0 +1,287 @@
+﻿@model ShopDienThoai.ModelViews.HomeViewVM
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<Product> allProduct = ViewBag.AllProducts;
+    List<TinDang> tintuc = Model.TinTucs;
+}
+
+<!-- Begin Slider Area -->
+<div class="slider-area">
+
+    <!-- Main Slider -->
+    <div class="swiper-container main-slider swiper-arrow with-bg_white">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide animation-style-01">
+                <div class="slide-inner bg-height" data-bg-image="~/assets/images/slider/bg/1-1.jpg">
+                    <div class="parallax-img-wrap">
+                        <div class="chilly">
+                            <div class="scene fill">
+                                <div class="expand-width" data-depth="0.2">
+
+                                    <img style="width:231px; height:210px" src="~/images/products/Samsung-Galaxy-S22-2.jpg" alt="Inner Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="avocado">
+                            <div class="scene fill">
+                                <div class="expand-width" data-depth="0.5">
+                                    <img style="width:224px; height:204px" src="~/images/products/vivo-v23-5g-6.png" alt="Inner Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="parallax-with-content">
+                            <div class="slide-content">
+                                <span class="sub-title mb-3">Trẻ trung & Bền bỉ</span>
+                                <h2 class="title mb-9">Đa dạng tất cả <br> Sản phẩm.</h2>
+                                <div class="button-wrap">
+                                    <a class="btn btn-custom-size lg-size btn-primary btn-white-hover rounded-0" href="shop.html">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="parallax-img-wrap">
+                                <div class="tomatoes">
+                                    <div class="scene fill">
+                                        <div class="expand-width" data-depth="0.5">
+                                            <img style="width:601px; height:504px" src="~/images/products/oppo-reno-6-5g-1.jpg" alt="Inner Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide animation-style-01">
+                <div class="slide-inner bg-height" data-bg-image="~/assets/images/slider/bg/1-1.jpg">
+                    <div class="parallax-img-wrap">
+                        <div class="chilly">
+                            <div class="scene fill">
+                                <div class="expand-width" data-depth="0.2">
+                                    <img style="width:231px; height:210px" src="~/images/products/Samsung-Galaxy-S22-2.jpg" alt="Inner Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="avocado">
+                            <div class="scene fill">
+                                <div class="expand-width" data-depth="0.5">
+                                    <img style="width:224px; height:204px" src="~/images/products/vivo-v23-5g-6.png" alt="Inner Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="parallax-with-content">
+                            <div class="slide-content">
+                                <span class="sub-title mb-3">Trẻ trung & Bền bỉ</span>
+                                <h2 class="title mb-9">Đa dạng tất cả <br> Sản phẩm.</h2>
+                                <div class="button-wrap">
+                                    <a class="btn btn-custom-size lg-size btn-primary btn-white-hover rounded-0" href="shop.html">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="parallax-img-wrap">
+                                <div class="tomatoes">
+                                    <div class="scene fill">
+                                        <div class="expand-width" data-depth="0.5">
+                                            <img style="width:601px; height:504px" src="~/images/products/oppo-reno-6-5g-1.jpg" alt="Inner Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination with-bg d-md-none"></div>
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+</div>
+<!-- Slider Area End Here -->
+<!-- Begin Shipping Area -->
+<div class="shipping-area section-space-top-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="shipping-item">
+                    <div class="shipping-img">
+                        <img src="~/assets/images/shipping/icon/plane.png" alt="Shipping Icon">
+                    </div>
+                    <div class="shipping-content">
+                        <h5 class="title">Miễn phí vận chuyển</h5>
+                        <p class="short-desc mb-0">Ưu đãi giao hàng tận nhà miễn phí</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pt-6 pt-md-0">
+                <div class="shipping-item">
+                    <div class="shipping-img">
+                        <img src="~/assets/images/shipping/icon/earphones.png" alt="Shipping Icon">
+                    </div>
+                    <div class="shipping-content">
+                        <h5 class="title">Hỗ trợ trực tuyến</h5>
+                        <p class="short-desc mb-0">Hỗ trợ trực tuyến 24/7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pt-6 pt-lg-0">
+                <div class="shipping-item">
+                    <div class="shipping-img">
+                        <img src="~/assets/images/shipping/icon/shield.png" alt="Shipping Icon">
+                    </div>
+                    <div class="shipping-content">
+                        <h5 class="title">Thanh toán an toàn</h5>
+                        <p class="short-desc mb-0">Hệ thống thanh toán hoàn toàn an toàn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Shipping Area End Here -->
+<!-- Begin Product Area -->
+<div class="product-area section-space-top-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="nav product-tab-nav pb-10" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <div class="active" id="all-items-tab">
+                            <div class="product-tab-icon">
+                                <img src="~/assets/images/product/icon/1.png" alt="Product Icon">
+                            </div>
+                            <h2>Sản phẩm</h2>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="all-items" role="tabpanel" aria-labelledby="all-items-tab">
+                        <div class="product-item-wrap row">
+                            @if (allProduct != null && allProduct.Count() > 0)
+                            {
+                                foreach (var item in allProduct)
+                                {
+                                    string url = $"/{item.Alias}-{item.ProductId}.html";
+                                    <div class="col-xl-3 col-lg-4 col-sm-6 pt-6 pt-sm-0">
+                                        <div class="product-item">
+                                            <div class="product-img img-zoom-effect">
+                                                <a href="@url">
+                                                    <img class="img-full" src="~/images/products/@item.Thumb" alt="@item.Title">
+                                                </a>
+                                                <div class="product-add-action">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="cart.html">
+                                                                <i class="pe-7s-cart"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="compare.html">
+                                                                <i class="pe-7s-shuffle"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="wishlist.html">
+                                                                <i class="pe-7s-like"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <a class="product-name" href="@url">@item.ProductName</a>
+                                                <div class="price-box pb-1">
+                                                    <span class="new-price">@item.Price.Value.ToString("#, ##0") VNĐ</span>
+                                                </div>
+                                                <div class="rating-box">
+                                                    <ul>
+                                                        <li><i class="pe-7s-star"></i></li>
+                                                        <li><i class="pe-7s-star"></i></li>
+                                                        <li><i class="pe-7s-star"></i></li>
+                                                        <li><i class="pe-7s-star"></i></li>
+                                                        <li><i class="pe-7s-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product Area End Here -->
+<!-- Begin Blog Area -->
+<div class="blog-area section-space-y-axis-100">
+    <div class="container">
+        <div class="section-title text-center pb-55">
+            <h2 class="title mb-0">Blog mới nhất</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="swiper-container blog-slider">
+                    <div class="swiper-wrapper">
+                        @if (tintuc != null && tintuc.Count() > 0)
+                        {
+                            foreach (var item in tintuc)
+                            {
+                                string url = $"/tin-tuc/{item.Alias}-{item.PostId}.html";
+                                <div class="swiper-slide">
+                                    <div class="blog-item">
+                                        <div class="blog-img img-zoom-effect">
+                                            <a href="@url">
+                                                <img class="img-full" src="~/images/news/@item.Thumb" alt="@item.Title">
+                                            </a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-meta text-dim-gray pb-3">
+                                                <ul>
+                                                    <li class="date"><i class="fa fa-calendar-o me-2"></i>@item.CreatedDate</li>
+                                                    <li>
+                                                        <span class="comments me-3">
+                                                            <a href="javascript:void(0)">2 Comments</a>
+                                                        </span>
+                                                        <span class="link-share">
+                                                            <a href="javascript:void(0)">Share</a>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h5 class="title mb-4">
+                                                <a href="@url">@item.Title</a>
+                                            </h5>
+                                            <p class="short-desc mb-5">@item.Scontents</p>
+                                            <div class="button-wrap">
+                                                <a class="btn btn-custom-size btn-dark btn-lg rounded-0" href="@url">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+
+
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog Area End Here -->
