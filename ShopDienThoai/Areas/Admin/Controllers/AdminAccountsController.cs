@@ -102,7 +102,7 @@ namespace ShopDienThoai.Areas.Admin.Controllers
                 var taikhoan = _context.Accounts.AsNoTracking().SingleOrDefault(x=>x.Email==model.Email);
                 if (taikhoan == null)
                 {
-                    return RedirectToAction("Login", "Accounts");
+                    return RedirectToAction("Login", "Account");
                 }
                 var pass = (model.PasswordNow.Trim() + taikhoan.Salt.Trim()).ToMD5();
                 if (pass == taikhoan.Password)
@@ -113,7 +113,7 @@ namespace ShopDienThoai.Areas.Admin.Controllers
                     _context.Update(taikhoan);
                     _context.SaveChanges();
                     _notifyService.Success("Thay đổi mật khẩu thành công");
-                    return RedirectToAction("Dashboard", "Accounts");
+                    return RedirectToAction("Dashboard", "Account");
                 }
             }
             return View();

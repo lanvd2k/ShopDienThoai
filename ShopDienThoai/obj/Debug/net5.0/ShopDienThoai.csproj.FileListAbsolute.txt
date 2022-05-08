@@ -504,3 +504,4 @@ D:\DATN\ShopDienThoai\ShopDienThoai\obj\Debug\net5.0\Razor\Areas\Admin\Views\Adm
 D:\DATN\ShopDienThoai\ShopDienThoai\obj\Debug\net5.0\Razor\Views\Checkout\Success.cshtml.g.cs
 D:\DATN\ShopDienThoai\ShopDienThoai\obj\Debug\net5.0\Razor\Views\DonHang\Details.cshtml.g.cs
 D:\DATN\ShopDienThoai\ShopDienThoai\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminOrders\ChangeStatus.cshtml.g.cs
+D:\DATN\ShopDienThoai\ShopDienThoai\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Login.cshtml.g.cs

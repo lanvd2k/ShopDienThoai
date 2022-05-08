@@ -52,7 +52,7 @@
                         <th>Họ và tên</th>
                         <th>Email</th>
                         <th>Điện thoại</th>
-                        <th>Lần đăng nhập cuối</th>
+                        
                         <th>Quyền truy cập</th>
                         <th>Trạng thái</th>
                         <th></th>
@@ -74,7 +74,7 @@
                         </td>
                         <td>@item.Email</td>
                         <td>@item.Phone</td>
-                        <td>@item.LastLogin</td>
+                        
                         <td>@item.Role.Description</td>
                         <td>
                             @if (item.Active)
@@ -93,7 +93,7 @@
                             }
 
                         </td>
-                        <td>
+                        <td style="min-width:300px">
                             <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Details" asp-route-id="@item.AccountId">View</a>
                             <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Edit" asp-route-id="@item.AccountId">Edit</a>
                             <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Delete" asp-route-id="@item.AccountId">Delete</a>

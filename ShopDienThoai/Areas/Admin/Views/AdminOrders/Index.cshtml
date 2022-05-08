@@ -51,7 +51,7 @@
                                 <td>@item.TotalMoney.ToString("#, ##0") VNĐ</td>
                                 <td>@item.TransactStatus.Status</td>
 
-                                <td style="min-width: 500px">
+                                <td style="min-width: 300px">
                                     <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminOrders" asp-action="Details" asp-route-id="@item.OrderId">Xem</a>
                                     @*<a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminOrders" asp-action="ChangeStatus" asp-route-id="@item.OrderId">Trạng thái</a>*@
                                     <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminOrders" asp-action="Edit" asp-route-id="@item.OrderId">Chỉnh sửa</a>
