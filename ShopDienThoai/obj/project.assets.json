@@ -7374,11 +7374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATN\\ShopDienThoai\\ShopDienThoai\\ShopDienThoai.csproj",
+      "projectUniqueName": "D:\\DATN_VuDinhLan_2018601492\\ShopDienThoai\\ShopDienThoai\\ShopDienThoai.csproj",
       "projectName": "ShopDienThoai",
-      "projectPath": "D:\\DATN\\ShopDienThoai\\ShopDienThoai\\ShopDienThoai.csproj",
+      "projectPath": "D:\\DATN_VuDinhLan_2018601492\\ShopDienThoai\\ShopDienThoai\\ShopDienThoai.csproj",
       "packagesPath": "C:\\Users\\ADMINIS\\.nuget\\packages\\",
-      "outputPath": "D:\\DATN\\ShopDienThoai\\ShopDienThoai\\obj\\",
+      "outputPath": "D:\\DATN_VuDinhLan_2018601492\\ShopDienThoai\\ShopDienThoai\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMINIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7452,7 +7452,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
